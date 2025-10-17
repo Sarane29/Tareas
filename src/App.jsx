@@ -69,7 +69,7 @@ export default function App() {
                   onKeyDown={(e) => { if (e.key === "Enter") saveEdit(todo.id); }}
                 />
                 <button className="bg-green-600 text-white px-2 py-1 rounded" onClick={() => saveEdit(todo.id)}>Guardar</button>
-                <button className="bg-gray-400 text-white px-2 py-1 rounded" onClick={cancelEdit}>Cancelar</button>
+                <button className="bg-gray-400 text-white px-2 py-1 rounded" onClick={cancelEdit}>CANCELAR</button>
               </div>
             ) : (
               <>
